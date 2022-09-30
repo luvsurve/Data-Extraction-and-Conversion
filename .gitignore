@@ -1,0 +1,4 @@
+csvpg/
+excess/
+__pycache__/
+.pytest_cache

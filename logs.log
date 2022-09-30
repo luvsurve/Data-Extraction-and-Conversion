@@ -1,0 +1,45 @@
+2022-09-30 14:27:36,200:INFO:Libraries Loaded successfully
+2022-09-30 14:27:36,200:INFO:URL Loaded successfully
+2022-09-30 14:27:36,200:DEBUG:Starting new HTTPS connection (1): registers.esma.europa.eu:443
+2022-09-30 14:27:36,770:DEBUG:https://registers.esma.europa.eu:443 "GET /solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100 HTTP/1.1" 200 None
+2022-09-30 14:27:36,785:INFO:URL exists, xml content loaded successfully
+2022-09-30 14:27:36,785:INFO: .zip link found
+2022-09-30 14:27:36,785:DEBUG:Starting new HTTP connection (1): firds.esma.europa.eu:80
+2022-09-30 14:27:36,801:DEBUG:http://firds.esma.europa.eu:80 "GET /firds/DLTINS_20210117_01of01.zip HTTP/1.1" 200 4434514
+2022-09-30 14:27:38,510:INFO: .zip file downloaded and extracted
+2022-09-30 14:27:38,510:INFO:Function get_url_content executed successfully
+2022-09-30 14:27:38,525:INFO:Downloaded content found and ready for conversion
+2022-09-30 14:28:16,581:INFO:141381 records found and transferred to csv
+2022-09-30 14:28:17,052:INFO:Conversion successful, outputfile generated
+2022-09-30 14:28:17,052:INFO:End of execution
+2022-09-30 14:28:33,842:INFO:Libraries Loaded successfully
+2022-09-30 14:28:33,842:INFO:URL Loaded successfully
+2022-09-30 14:28:33,842:DEBUG:Starting new HTTPS connection (1): registers.esma.europa.eu:443
+2022-09-30 14:28:34,404:DEBUG:https://registers.esma.europa.eu:443 "GET /solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100 HTTP/1.1" 200 None
+2022-09-30 14:28:34,404:INFO:URL exists, xml content loaded successfully
+2022-09-30 14:28:34,404:INFO: .zip link found
+2022-09-30 14:28:34,404:DEBUG:Starting new HTTP connection (1): firds.esma.europa.eu:80
+2022-09-30 14:28:34,420:DEBUG:http://firds.esma.europa.eu:80 "GET /firds/DLTINS_20210117_01of01.zip HTTP/1.1" 200 4434514
+2022-09-30 14:28:35,457:INFO: .zip file downloaded and extracted
+2022-09-30 14:28:35,457:INFO:Function get_url_content executed successfully
+2022-09-30 14:28:35,457:INFO:Downloaded content found and ready for conversion
+2022-09-30 14:29:10,089:INFO:141381 records found and transferred to csv
+2022-09-30 14:29:10,422:INFO:Conversion successful, outputfile generated
+2022-09-30 14:29:10,422:INFO:End of execution
+2022-09-30 14:29:10,437:DEBUG:Starting new HTTPS connection (1): google.com:443
+2022-09-30 14:29:10,531:DEBUG:https://google.com:443 "GET /error HTTP/1.1" 404 1566
+2022-09-30 14:29:10,531:ERROR:Erroneous zip url
+2022-09-30 14:29:30,576:INFO:Libraries Loaded successfully
+2022-09-30 14:29:30,576:INFO:URL Loaded successfully
+2022-09-30 14:29:30,592:DEBUG:Starting new HTTPS connection (1): registers.esma.europa.eu:443
+2022-09-30 14:29:31,143:DEBUG:https://registers.esma.europa.eu:443 "GET /solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100 HTTP/1.1" 200 None
+2022-09-30 14:29:31,143:INFO:URL exists, xml content loaded successfully
+2022-09-30 14:29:31,159:INFO: .zip link found
+2022-09-30 14:29:31,159:DEBUG:Starting new HTTP connection (1): firds.esma.europa.eu:80
+2022-09-30 14:29:31,159:DEBUG:http://firds.esma.europa.eu:80 "GET /firds/DLTINS_20210117_01of01.zip HTTP/1.1" 200 4434514
+2022-09-30 14:29:32,180:INFO: .zip file downloaded and extracted
+2022-09-30 14:29:32,180:INFO:Function get_url_content executed successfully
+2022-09-30 14:29:32,181:INFO:Downloaded content found and ready for conversion
+2022-09-30 14:30:11,415:INFO:141381 records found and transferred to csv
+2022-09-30 14:30:11,893:INFO:Conversion successful, outputfile generated
+2022-09-30 14:30:11,893:INFO:End of execution
