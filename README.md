@@ -22,3 +22,5 @@ XML Data extraction and Csv conversion
 
 7. Run pytest file using command:
     <code>python -m unittest main_test.py</code>
+
+Note: data.csv file is the output file and is generated upon program execution
